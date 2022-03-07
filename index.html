@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Whoodoo</title>
+</head>
+<body class="body">
+	<header class="header">
+		<div class="grid">
+			<div class="about">
+				<h1 class="h1">Whoodoo tattoo parlor</h1>
+				<p class="paragraph">We are new tattoo parlor based in California. We have over 2 000 works of our masters. And we will show the world how to do the best tattooes.</p>
+				<div class="button">
+					<a href="#contact">CONTACT US</a>
+				</div>
+			</div>
+			<nav class="menu" id="main-menu">
+				<button class="menu-toggle" id="toggle-menu">CLEAN</button>
+				<div class="nav-menu">
+					<ul class="menu-dropdown">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#works">WORK</a></li>
+						<li><a href="#rewiews">REWIEWS</a></li>
+						<li><a href="#about">ABOUT US</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+
+		<div class="logo"></div>
+	</header>
+	<main class="main">
+
+		<article class="block1">
+			<a name="works"></a>
+			<div class="line_div">
+				<a class="line">OUR WORKS</a>
+			</div>
+			<div class="images">
+				<div class="img"><div onclick="openModal();currentSlide(1)" class="imgs img1"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(2)" class="imgs img2"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(3)" class="imgs img3"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(4)" class="imgs img4"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(5)" class="imgs img5"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(6)" class="imgs img6"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(7)" class="imgs img7"></div></div>
+				<div class="img"><div onclick="openModal();currentSlide(8)" class="imgs img8"></div></div>
+			</div>
+			
+			<div id="myModal" class="modal">
+  				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+					<div class="mySlides">
+				    	<div class="modal-slides img-modal1"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal2"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal3"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal4"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal5"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal6"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal7"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal8"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal9"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal10"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal11"></div>
+				    </div>
+
+				    <div class="mySlides">
+				    	<div class="modal-slides img-modal12"></div>
+				    </div>
+
+				    <!-- Next/previous controls -->
+				    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				    <!-- Thumbnail image controls -->
+				    <div class="demo-grid">
+					    <div class="column">
+					      <div class="demo demoimg1" onclick="currentSlide(1)"></div>
+					    </div>
+
+					    <div class="column">
+					      <div class="demo demoimg2" onclick="currentSlide(2)"></div>
+					    </div>
+
+					    <div class="column">
+					      <div class="demo demoimg3" onclick="currentSlide(3)"></div>
+					    </div>
+
+					    <div class="column">
+					      <div class="demo demoimg4" onclick="currentSlide(4)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg5" onclick="currentSlide(5)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg6" onclick="currentSlide(6)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg7" onclick="currentSlide(7)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg8" onclick="currentSlide(8)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg9" onclick="currentSlide(9)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg10" onclick="currentSlide(10)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg11" onclick="currentSlide(11)"></div>
+					    </div>
+					    <div class="column">
+					      <div class="demo demoimg12" onclick="currentSlide(12)"></div>
+					    </div>
+				    </div>
+  				</div>
+			</div>
+
+		</article>
+		<a name="load_more" class="line-2" onclick="openModal();currentSlide(1)" >LOAD MORE</a>
+		<article class="numbers">
+			<div class="number-div">
+				<div class="number1"></div>
+				<p class="num">548</p>
+				<p class="text_num">PROGECTS<br>COMLETED</p>
+			</div>
+			<div class="number-div">
+				<div class="number2"></div>
+				<p class="num">1465</p>
+				<p class="text_num">WORKING<br>HOURS</p>
+			</div>
+			<div class="number-div">
+				<div class="number3"></div>
+				<p class="num">612</p>
+				<p class="text_num">POSITIVE<br>FEEDBACKS</p>
+			</div>
+			<div class="number-div">
+				<div class="number4"></div>
+				<p class="num">735</p>
+				<p class="text_num">HAPPY<br>CLIENTS</p>
+			</div>
+		</article>
+
+		<a name="rewiews"></a>
+			<div class="slider middle">
+				<div class="slides">
+					
+					<input type="radio" name="r" id="r1" checked>
+					<input type="radio" name="r" id="r2">
+					<input type="radio" name="r" id="r3">
+
+					<div class="slide s1"><img src="img/rewiews/slide1.jpg" alt=""></div>
+					<div class="slide"><img src="img/rewiews/slide2.jpg" alt=""></div>
+					<div class="slide"><img src="img/rewiews/slide3.jpg" alt=""></div>
+
+				</div>
+
+			</div>
+
+			<div class="navigation">
+					<label for="r1" class="bar"></label>
+					<label for="r2" class="bar"></label>
+					<label for="r3" class="bar"></label>
+			</div>
+
+		<article class="about_us">
+			<div class="img-about-us"></div>
+			<label class="label-about">
+				<a name="about" ></a>
+				<p class="first-p">Hello! We are glad that you looked into this tab and are reading this now. Here we can get to know you better.
+				Our company Whoodoo has been making the most beautiful tattoo sketches for 10 years!</p>
+				<p>During this time, we were able to help more than 5,000 people make their dreams come true.</p>
+				<p>And now a little about the work of our company and our approach to our responsible work:</p>
+ 				<p class="tab-list">- The studio is equipped with all the necessary equipment to ensure sanitary safety (units for sterilization and disfigurement of premises).<br>
+ 				- We honor the sanitary regulations and comply with them in the most thorough way. <br>
+ 				- We keep a record of all records on the measures taken to ensure the safety of the process of applying an artistic tattoo. <br>
+ 				- We use only disposable consumables and barrier protection to prevent cross contamination.</p>
+ 			</label>
+		</article>
+			<a name="contact" ></a>
+		<article class="form">
+			<h2 class="question">Want to get a tattoo?</h2>
+			<p class="form-text">Leave your contact details so that we can contact you or call us by phone. <br>
+			Let's create a work of art on your body together!</p>
+			<div class="inputs">
+				<input class="name" type="name" name="PersonName" maxlength="20" placeholder="Your name">
+				<input class="email" type="e-mail" name="PersonEmail" maxlength="50" placeholder="Your E-mail">
+				<input class="formtitle" type="text" name="PersonTitle" maxlength="30" placeholder="Your title">
+				<textarea class="com" type="text" name="PersonComment" cols="1" rows="3" placeholder="Your comment"></textarea>
+				<input class="submit" type="submit" name="submit" value="Submit">
+			</div>
+		</article>
+
+	</main>
+
+	<footer class="footer">
+		<div class="fut">
+			<p class="myname">Created by Artem Chernykh</p>
+			<p class="myMail">artemchernykh001@yandex.ru</p>
+			<p class="myPhone">8-(980)-392-42-61</p>
+			<p class="myVK">VK : /artem_the_creator</p>
+			<p class="myINST">INST : /starfall_kilox/</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+	(function() {
+		var button = document.getElementById('toggle-menu');
+		button.addEventListener('click', function(event) { 
+			event.preventDefault();
+			var menu = document.getElementById('main-menu');
+			menu.classList.toggle('is-open');
+		});
+	})();
+	</script>
+	<script type="text/javascript" src="common.js"  ></script>
+</body>
+</html>
